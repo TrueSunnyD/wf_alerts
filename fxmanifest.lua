@@ -1,4 +1,4 @@
-fx_version 'adamant'
+fx_version 'cerulean' --was adamant
 games { 'gta5' }
 
 client_scripts {
@@ -6,8 +6,8 @@ client_scripts {
 }
 
 server_scripts {
-    'server/sv_main.lua',
-    '@mysql-async/lib/MySQL.lua'
+    '@oxmysql/lib/MySQL.lua',
+    'server/sv_main.lua'
 }
 
 ui_page {

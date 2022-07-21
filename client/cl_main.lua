@@ -44,7 +44,10 @@ end)
 RegisterNetEvent('wl-alerts:civilian:notify')
 AddEventHandler('wl-alerts:civilian:notify', function(alertType)
     street = GetTheStreet()
-    local job = exports["isPed"]:isPed("job") -- Replace this with however you wish to check for a job
+    --local job = exports["isPed"]:isPed("job") -- Replace this with however you wish to check for a job
+        local src = source --added -sunny
+	    local PlayerData = GetPlayerData(src) --added -sunny
+        local job = GetJobType(PlayerData.job.name) --added -sunny
     local popo = false
     local ems = false
     if job == "police" then

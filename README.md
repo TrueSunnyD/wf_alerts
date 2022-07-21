@@ -1,3 +1,8 @@
+This is setup to be ran with QBCore callouts (specifically job checking)
+
+
+
+
 # wf_alerts
  No requirements are needed to run this script, but for the icons to work you must use your own fontawesome url link.
  To do that, open up /html/alerts.html and then go onto Line: 7, once you're on line 7, head towards https://fontawesome.com/

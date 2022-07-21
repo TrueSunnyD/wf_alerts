@@ -50,7 +50,7 @@ AddEventHandler('wl-alerts:civilian:notify', function(alertType)
     if job == "police" then
         popo = true -- If you've amended the above, this will work fine
     end
-    if job == "ems" then -- If you've amended the above, this will work fine
+    if job == "ambulance" then -- If you've amended the above, this will work fine
         ems = true
     end
 
